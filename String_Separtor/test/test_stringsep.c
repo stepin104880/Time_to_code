@@ -14,7 +14,7 @@ void test_stringSeperator1(void)
 void test_stringSeperator2(void)
 {
     char arr2[3] = {"I","am","Wilson"};
-    TEST_ASSERT_EQUAL_CHAR_ARRAY(arr2, stringSeperat("_I_am_Wilson"),3);
+    TEST_ASSERT_EQUAL_CHAR_ARRAY(arr2, stringSeperator("_I_am_Wilson"),3);
 }
 
 void test_stringSeperator3(void)
